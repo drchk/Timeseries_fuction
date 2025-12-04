@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.1">
   <diagram name="Page-1" id="Nh1xDesKGgXgI4Ep5JsP">
-    <mxGraphModel dx="1628" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="778" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -131,7 +131,7 @@
           <mxGeometry height="30" width="120" x="621.52" y="131" as="geometry" />
         </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-63" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
-          <mxGeometry height="320" width="120" x="60" y="260" as="geometry" />
+          <mxGeometry height="300" width="120" x="60" y="260" as="geometry" />
         </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-64" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#9999FF;" value="" vertex="1">
           <mxGeometry height="283" width="499" x="189" y="267" as="geometry" />
@@ -146,25 +146,25 @@
           <mxGeometry height="30" width="94.51" x="72.96" y="258" as="geometry" />
         </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-68" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 8px;&quot; face=&quot;Times New Roman&quot;&gt;Causal Conv1D&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot; face=&quot;Times New Roman&quot;&gt;+ SN + EU&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="32" width="95.33" x="72.14" y="288" as="geometry" />
+          <mxGeometry height="32" width="67.47" x="86.48" y="281" as="geometry" />
         </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-73" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;Skip E2&lt;/font&gt;" vertex="1">
-          <mxGeometry height="20" width="100" x="70" y="455" as="geometry" />
+          <mxGeometry height="20" width="50" x="93.95" y="435" as="geometry" />
         </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-75" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;Dynamic Subband&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;Causal Conv&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;+ SN + EU&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 8px; font-family: &amp;quot;Times New Roman&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(Skip E1)&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="41" width="97.04" x="72.96000000000001" y="339" as="geometry" />
+          <mxGeometry height="41" width="80" x="80.22" y="326.5" as="geometry" />
         </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-76" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;Dynamic Subband&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;Causal Conv&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;+ SN + EU&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 8px; font-family: &amp;quot;Times New Roman&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(Skip E2)&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="43" width="97.04" x="71.43" y="398" as="geometry" />
+          <mxGeometry height="43" width="78.47" x="80.99" y="383" as="geometry" />
         </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-77" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;Conv1d 1x1&lt;/font&gt;" vertex="1">
-          <mxGeometry height="20" width="100" x="68.95" y="487" as="geometry" />
+          <mxGeometry height="20" width="48.95" x="93.95" y="465" as="geometry" />
         </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-78" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;Conv1d down&lt;/font&gt;" vertex="1">
-          <mxGeometry height="20" width="100" x="68.95" y="520" as="geometry" />
+          <mxGeometry height="20" width="58.95" x="88.95" y="494.76" as="geometry" />
         </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-79" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;Reshape to&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 8px; font-family: &amp;quot;Times New Roman&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[B,C,T,L]&lt;/span&gt;" vertex="1">
-          <mxGeometry height="20" width="99.78" x="70.22" y="550" as="geometry" />
+          <mxGeometry height="20" width="80" x="78.42" y="527" as="geometry" />
         </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-80" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" value="" vertex="1">
           <mxGeometry height="220" width="126.13" x="202.87" y="281" as="geometry" />
@@ -386,12 +386,12 @@
         </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-164" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;elbow=vertical;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Ip6GPPoBwzhDXHx-Lvic-63" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="10" y="420" as="sourcePoint" />
+            <mxPoint x="20" y="410" as="sourcePoint" />
             <mxPoint x="400" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-166" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;Noisy Speech feature [B,F,T,2]&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="60" x="-1" y="405" as="geometry" />
+          <mxGeometry height="30" width="60" y="393.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
