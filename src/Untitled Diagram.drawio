@@ -358,6 +358,9 @@
             <mxPoint x="336.67999999999984" y="484.8399999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-153" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;Causal temporal processing hub&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="196" x="200.02" y="257" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
