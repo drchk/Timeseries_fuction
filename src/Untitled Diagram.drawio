@@ -221,6 +221,9 @@
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-100" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=-90;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 6px;&quot;&gt;&lt;br&gt;&lt;span style=&quot;line-height: 1.15 !important; margin-top: 0px !important;&quot;&gt;Depth:&lt;/span&gt; &lt;span class=&quot;math-inline&quot; data-math=&quot;L = 6&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important;&quot;&gt;L = 6,&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 6px;&quot;&gt;Dilation Schedule: (i.e., {1, 2, 4, 8, 16, 32}&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="160" x="235" y="339" as="geometry" />
         </mxCell>
+        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-101" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Graph Freq" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="330.5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
