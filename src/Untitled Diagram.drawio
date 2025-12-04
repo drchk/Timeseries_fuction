@@ -225,7 +225,7 @@
           <mxGeometry height="150" width="147.93" x="342.07" y="280" as="geometry" />
         </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-102" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Graph Freq&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="60" x="365" y="267" as="geometry" />
+          <mxGeometry height="30" width="60" x="366" y="262" as="geometry" />
         </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-114" edge="1" parent="1" source="Ip6GPPoBwzhDXHx-Lvic-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;" target="Ip6GPPoBwzhDXHx-Lvic-104">
           <mxGeometry relative="1" as="geometry" />
@@ -240,7 +240,7 @@
           <mxGeometry height="10" width="10" x="390" y="336.75" as="geometry" />
         </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-106" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); line-height: 19px; white-space: pre;&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="24.5" width="90" x="355" y="368.75" as="geometry" />
+          <mxGeometry height="24.5" width="90" x="346" y="368.75" as="geometry" />
         </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-107" parent="1" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;editableCssRules=.*;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iOTQuNDYyMzQxMzA4NTkzNzUiIGhlaWdodD0iMzEiIHhtbDpzcGFjZT0icHJlc2VydmUiIG92ZXJmbG93PSJoaWRkZW4iIHZpZXdCb3g9IjguMTgyMzEyMDExNzE4NzUgOCA5NC40NjIzNDEzMDg1OTM3NSAzMSI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTc3NSAtMjM2KSI+PHRleHQgZm9udC1mYW1pbHk9IkNhbWJyaWEgTWF0aCxDYW1icmlhIE1hdGhfTVNGb250U2VydmljZSxzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iNDAwIiBmb250LXNpemU9IjI0IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg3ODMuODQ5IDI2NikiPvCdkLQ8L3RleHQ+PHRleHQgZm9udC1mYW1pbHk9IkNhbWJyaWEgTWF0aCxDYW1icmlhIE1hdGhfTVNGb250U2VydmljZSxzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iNDAwIiBmb250LXNpemU9IjE4IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg3OTkuMDE2IDI3MSkiPvCdkZvwnZGc8J2Rn/CdkZo8L3RleHQ+PHRleHQgZm9udC1mYW1pbHk9IkFwdG9zLEFwdG9zX01TRm9udFNlcnZpY2Usc2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9IjQwMCIgZm9udC1zaXplPSIyNCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoODQ3LjY0MiAyNjYpIj4uIFg8L3RleHQ+PC9nPjwvc3ZnPg==;" value="" vertex="1">
           <mxGeometry height="10" width="30.32" x="376.68" y="382" as="geometry" />
@@ -251,20 +251,29 @@
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-109" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 8px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Graph Filter &lt;/span&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="361.84000000000003" y="364" as="geometry" />
         </mxCell>
+        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-128" edge="1" parent="1" source="Ip6GPPoBwzhDXHx-Lvic-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;elbow=vertical;" target="Ip6GPPoBwzhDXHx-Lvic-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-110" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;PReLU&lt;/font&gt;" vertex="1">
           <mxGeometry height="19.75" width="50" x="366.84000000000003" y="401" as="geometry" />
         </mxCell>
+        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-130" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;elbow=vertical;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="383" as="sourcePoint" />
+            <mxPoint x="434" y="382.6071428571429" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-113" parent="1" style="shape=xor;whiteSpace=wrap;html=1;rotation=-180;" value="" vertex="1">
-          <mxGeometry height="49" width="45" x="447" y="358.5" as="geometry" />
+          <mxGeometry height="49" width="45" x="446" y="355.5" as="geometry" />
         </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-112" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 6px;&quot;&gt;adjacency A (learnable)&amp;nbsp;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="29.5" width="60" x="434" y="365.25" as="geometry" />
+          <mxGeometry height="29.5" width="60" x="435" y="364" as="geometry" />
         </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-117" edge="1" parent="1" source="Ip6GPPoBwzhDXHx-Lvic-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.586;entryY=0.233;entryDx=0;entryDy=0;entryPerimeter=0;elbow=vertical;" target="Ip6GPPoBwzhDXHx-Lvic-109">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-120" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#333300;shadow=0;dashed=0;shape=mxgraph.ios7.icons.add;" value="" vertex="1">
-          <mxGeometry height="10" width="10" x="469" y="333.5" as="geometry" />
+          <mxGeometry height="10" width="10" x="459" y="411.5" as="geometry" />
         </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-121" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;">
           <mxGeometry relative="1" as="geometry">
@@ -275,6 +284,16 @@
             </Array>
             <mxPoint x="308" y="395" as="sourcePoint" />
             <mxPoint x="360" y="317" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-131" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.867;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;elbow=vertical;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="347" y="290" />
+              <mxPoint x="464" y="290" />
+            </Array>
+            <mxPoint x="347.06999999999994" y="317.5" as="sourcePoint" />
+            <mxPoint x="463.6700000000001" y="412.66999999999996" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
