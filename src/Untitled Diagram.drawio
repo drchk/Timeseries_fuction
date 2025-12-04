@@ -222,7 +222,7 @@
           <mxGeometry height="30" width="160" x="235" y="339" as="geometry" />
         </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-101" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Graph Freq" vertex="1">
-          <mxGeometry height="60" width="120" x="340" y="330.5" as="geometry" />
+          <mxGeometry height="220" width="120" x="340" y="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
