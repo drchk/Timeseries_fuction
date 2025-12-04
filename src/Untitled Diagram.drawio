@@ -131,7 +131,7 @@
           <mxGeometry height="30" width="120" x="579.52" y="140" as="geometry" />
         </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-63" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
-          <mxGeometry height="320" width="140" x="40" y="263" as="geometry" />
+          <mxGeometry height="320" width="140" x="40" y="260" as="geometry" />
         </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-64" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
           <mxGeometry height="320" width="392.07" x="188.93" y="263" as="geometry" />
@@ -145,26 +145,26 @@
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-67" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;Streaming Causal Encoder&lt;/b&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="94.51" x="62.959999999999994" y="258" as="geometry" />
         </mxCell>
-        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-68" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="20" width="120" x="50.22" y="293" as="geometry" />
+        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-68" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 8px;&quot; face=&quot;Times New Roman&quot;&gt;Causal Conv1D&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot; face=&quot;Times New Roman&quot;&gt;+ SN + EU&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="32" width="95.33" x="62.14" y="288" as="geometry" />
         </mxCell>
-        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-69" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="20" width="120" x="50.209999999999994" y="330" as="geometry" />
+        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-73" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;Skip E2&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="100" x="60" y="455" as="geometry" />
         </mxCell>
-        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="20" width="120" x="50.22" y="370" as="geometry" />
+        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-75" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;Dynamic Subband&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;Causal Conv&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;+ SN + EU&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 8px; font-family: &amp;quot;Times New Roman&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(Skip E1)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="41" width="97.04" x="62.96" y="339" as="geometry" />
         </mxCell>
-        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="20" width="120" x="50.22" y="411" as="geometry" />
+        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-76" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;Dynamic Subband&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;Causal Conv&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;+ SN + EU&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 8px; font-family: &amp;quot;Times New Roman&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(Skip E2)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="43" width="97.04" x="61.43" y="398" as="geometry" />
         </mxCell>
-        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="20" width="120" x="50.22" y="453" as="geometry" />
+        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-77" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;Conv1d 1x1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="100" x="58.95" y="487" as="geometry" />
         </mxCell>
-        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-73" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="20" width="120" x="50.209999999999994" y="493" as="geometry" />
+        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-78" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;Conv1d down&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="100" x="58.95" y="520" as="geometry" />
         </mxCell>
-        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-74" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="20" width="120" x="50.209999999999994" y="533" as="geometry" />
+        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-79" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;Reshape to&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 8px; font-family: &amp;quot;Times New Roman&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[B,C,T,L]&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="99.78" x="60.22" y="550" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
