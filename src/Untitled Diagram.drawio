@@ -222,7 +222,7 @@
           <mxGeometry height="30" width="160" x="223" y="326.5" as="geometry" />
         </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-101" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
-          <mxGeometry height="150" width="147.93" x="342.07" y="280" as="geometry" />
+          <mxGeometry height="150" width="147.93" x="342.07" y="274" as="geometry" />
         </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-102" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Graph Freq&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="366" y="262" as="geometry" />
@@ -294,6 +294,66 @@
             </Array>
             <mxPoint x="347.06999999999994" y="317.5" as="sourcePoint" />
             <mxPoint x="463.6700000000001" y="412.66999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-132" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="77" width="190" x="330" y="443" as="geometry" />
+        </mxCell>
+        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-144" edge="1" parent="1" source="Ip6GPPoBwzhDXHx-Lvic-133" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;" target="Ip6GPPoBwzhDXHx-Lvic-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-133" parent="1" style="whiteSpace=wrap;html=1;align=center;rotation=-90;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;Env Calc&lt;/font&gt;" vertex="1">
+          <mxGeometry height="13" width="46.68" x="316.84" y="478.34" as="geometry" />
+        </mxCell>
+        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-134" parent="1" style="whiteSpace=wrap;html=1;align=center;rotation=-90;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;Proj to Mel&lt;/font&gt;" vertex="1">
+          <mxGeometry height="13" width="46.68" x="340.07000000000005" y="478.34000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-135" parent="1" style="whiteSpace=wrap;html=1;align=center;rotation=-90;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;Causal LP Smoother&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30.12" width="49.44" x="367.02" y="471.32" as="geometry" />
+        </mxCell>
+        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-137" parent="1" style="whiteSpace=wrap;html=1;align=center;rotation=-90;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;Koopman Enc/Dec&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30.64" width="46.68" x="410.26" y="472.02" as="geometry" />
+        </mxCell>
+        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-138" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;elbow=vertical;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="390" as="sourcePoint" />
+            <mxPoint x="440" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-139" connectable="0" parent="Ip6GPPoBwzhDXHx-Lvic-138" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" value="1" vertex="1">
+          <mxGeometry relative="1" x="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-140" parent="1" style="whiteSpace=wrap;html=1;align=center;rotation=-90;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;Proj back to L&lt;/font&gt;" vertex="1">
+          <mxGeometry height="13" width="56.84" x="436.08" y="481.76" as="geometry" />
+        </mxCell>
+        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-141" parent="1" style="whiteSpace=wrap;html=1;align=center;rotation=-90;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;Global Learnable Alpha&lt;/font&gt;" vertex="1">
+          <mxGeometry height="39.9" width="49.44" x="473.11" y="464.89" as="geometry" />
+        </mxCell>
+        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-142" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;Mel-Koopman Branch&amp;nbsp; &amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 8px;&quot;&gt;(&lt;/span&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;color: rgb(204, 204, 204);&quot;&gt;Frozen)&lt;/font&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="134" x="340.11" y="434.25" as="geometry" />
+        </mxCell>
+        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-145" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="372" y="485" as="sourcePoint" />
+            <mxPoint x="380" y="485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-146" edge="1" parent="1" source="Ip6GPPoBwzhDXHx-Lvic-135" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="413" y="487" as="sourcePoint" />
+            <mxPoint x="421" y="487" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-147" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="448" y="487" as="sourcePoint" />
+            <mxPoint x="460" y="487" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-148" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="486" as="sourcePoint" />
+            <mxPoint x="482" y="486" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
