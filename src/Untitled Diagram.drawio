@@ -403,7 +403,7 @@
         </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-164" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;elbow=vertical;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Ip6GPPoBwzhDXHx-Lvic-63" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="30" y="400" as="sourcePoint" />
+            <mxPoint x="20" y="400" as="sourcePoint" />
             <mxPoint x="400" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
