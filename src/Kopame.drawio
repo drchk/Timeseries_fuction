@@ -1,9 +1,92 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.4">
   <diagram name="Page-1" id="UaNUR8POgIM9URTzRUll">
-    <mxGraphModel>
+    <mxGraphModel dx="1628" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BP9IxYRxTg5UHEvOxEcL-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="140" width="560" x="90" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BP9IxYRxTg5UHEvOxEcL-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="FIR Path (Baseline Dynamics)" vertex="1">
+          <mxGeometry height="30" width="200" x="90" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BP9IxYRxTg5UHEvOxEcL-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Causal FIR&lt;div&gt;Conv1d&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="120" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BP9IxYRxTg5UHEvOxEcL-8" edge="1" parent="1" source="BP9IxYRxTg5UHEvOxEcL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;fillColor=#b0e3e6;strokeColor=#0e8088;" target="BP9IxYRxTg5UHEvOxEcL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BP9IxYRxTg5UHEvOxEcL-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Linear Projection" vertex="1">
+          <mxGeometry height="30" width="95" x="335" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BP9IxYRxTg5UHEvOxEcL-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Per-band/&lt;div&gt;Time blend&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="543" y="139" as="geometry" />
+        </mxCell>
+        <mxCell id="BP9IxYRxTg5UHEvOxEcL-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="60" width="430" x="90" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="BP9IxYRxTg5UHEvOxEcL-7" edge="1" parent="1" source="BP9IxYRxTg5UHEvOxEcL-3" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#b0e3e6;strokeColor=#0e8088;" target="BP9IxYRxTg5UHEvOxEcL-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="340" y="270" as="sourcePoint" />
+            <mxPoint x="390" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BP9IxYRxTg5UHEvOxEcL-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
+          <mxGeometry height="221" width="410" x="90" y="139" as="geometry" />
+        </mxCell>
+        <mxCell id="BP9IxYRxTg5UHEvOxEcL-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Koopman Path (Linearized Long-Term Dynamics)" vertex="1">
+          <mxGeometry height="30" width="300" x="90" y="139" as="geometry" />
+        </mxCell>
+        <mxCell id="BP9IxYRxTg5UHEvOxEcL-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Encoder&lt;div&gt;&amp;nbsp;(φ, Linear)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="31" width="85" x="105" y="169" as="geometry" />
+        </mxCell>
+        <mxCell id="BP9IxYRxTg5UHEvOxEcL-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Latent State (zₜ)" vertex="1">
+          <mxGeometry height="41" width="80" x="260" y="169" as="geometry" />
+        </mxCell>
+        <mxCell id="BP9IxYRxTg5UHEvOxEcL-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Complex Diagonal K (Rotate &amp;amp; Scale)" vertex="1">
+          <mxGeometry height="41" width="105" x="248" y="232" as="geometry" />
+        </mxCell>
+        <mxCell id="BP9IxYRxTg5UHEvOxEcL-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Low-Rank Control B&amp;nbsp;&lt;div&gt;(Input uₜ)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="90" x="260" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="BP9IxYRxTg5UHEvOxEcL-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Decoder&amp;nbsp;&lt;div&gt;(ψ, Linear)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="41" width="80" x="411" y="171" as="geometry" />
+        </mxCell>
+        <mxCell id="BP9IxYRxTg5UHEvOxEcL-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="140" width="130" x="371" y="221" as="geometry" />
+        </mxCell>
+        <mxCell id="BP9IxYRxTg5UHEvOxEcL-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" value="Gating Mechanism" vertex="1">
+          <mxGeometry height="60" width="120" x="381" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="BP9IxYRxTg5UHEvOxEcL-18" edge="1" parent="1" source="BP9IxYRxTg5UHEvOxEcL-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=0;fillColor=#b0e3e6;strokeColor=#0e8088;strokeWidth=2;" target="BP9IxYRxTg5UHEvOxEcL-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="95" />
+              <mxPoint x="80" y="185" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BP9IxYRxTg5UHEvOxEcL-19" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="50" y="140" as="sourcePoint" />
+            <mxPoint x="80" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BP9IxYRxTg5UHEvOxEcL-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Input Features (r) from Temporal Hub" vertex="1">
+          <mxGeometry height="40" width="90" x="-6" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="BP9IxYRxTg5UHEvOxEcL-21" edge="1" parent="1" source="BP9IxYRxTg5UHEvOxEcL-11" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#b0e3e6;strokeColor=#0e8088;strokeWidth=2;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="340" y="270" as="sourcePoint" />
+            <mxPoint x="230" y="185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BP9IxYRxTg5UHEvOxEcL-22" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fillColor=#e51400;strokeColor=#B20000;strokeWidth=2;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="230" y="185" as="sourcePoint" />
+            <mxPoint x="260" y="185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
