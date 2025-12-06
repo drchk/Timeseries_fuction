@@ -366,8 +366,8 @@
             <mxPoint x="54" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-153" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;Causal temporal processing hub&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="196" x="209.02" y="257" as="geometry" />
+        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-153" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;Causal temporal processing hub&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="196" x="188.02" y="256" as="geometry" />
         </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-154" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="140" width="168" x="509" y="280" as="geometry" />
@@ -471,7 +471,7 @@
           <mxGeometry height="17" width="53" x="711.5" y="205" as="geometry" />
         </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-197" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;ConvTranspose1d&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;+ SN + ELU&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="90" x="703" y="232" as="geometry" />
+          <mxGeometry height="30" width="90" x="706" y="232" as="geometry" />
         </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-198" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;ConvTranspose1d&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;+ SN + ELU&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="28.25" width="90" x="701" y="298.75" as="geometry" />
@@ -549,7 +549,7 @@
           <mxGeometry height="20" width="71" x="710" y="432.76" as="geometry" />
         </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-217" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;Learnable Global Gain&lt;/font&gt;" vertex="1">
-          <mxGeometry height="20" width="84" x="705" y="462" as="geometry" />
+          <mxGeometry height="20" width="84" x="708" y="462" as="geometry" />
         </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-252" edge="1" parent="1" source="Ip6GPPoBwzhDXHx-Lvic-218" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;elbow=vertical;flowAnimation=0;endArrow=none;endFill=0;">
           <mxGeometry relative="1" as="geometry">
@@ -563,8 +563,8 @@
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-218" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;Complex Ratio Mask Application&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="90" x="699" y="492" as="geometry" />
         </mxCell>
-        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-219" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=-90;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;Output Processing&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="70" x="665.04" y="420" as="geometry" />
+        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-219" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=-90;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;Output Processing&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="70" x="665.04" y="431" as="geometry" />
         </mxCell>
         <mxCell id="Ip6GPPoBwzhDXHx-Lvic-220" edge="1" parent="1" source="Ip6GPPoBwzhDXHx-Lvic-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;elbow=vertical;" target="Ip6GPPoBwzhDXHx-Lvic-65">
           <mxGeometry relative="1" as="geometry">
@@ -702,6 +702,9 @@
             <mxPoint x="821" y="430" as="sourcePoint" />
             <mxPoint x="821" y="413" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Ip6GPPoBwzhDXHx-Lvic-256" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=-90;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;Decoder&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="70" x="664.04" y="213" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
