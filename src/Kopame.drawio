@@ -19,8 +19,8 @@
         <mxCell id="BP9IxYRxTg5UHEvOxEcL-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Linear Projection" vertex="1">
           <mxGeometry height="30" width="95" x="335" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="BP9IxYRxTg5UHEvOxEcL-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Per-band/&lt;div&gt;Time blend&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="90" x="543" y="139" as="geometry" />
+        <mxCell id="BP9IxYRxTg5UHEvOxEcL-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;(Per-band/Time Blend (Gated by gfeat))&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="49" width="90" x="543" y="130" as="geometry" />
         </mxCell>
         <mxCell id="BP9IxYRxTg5UHEvOxEcL-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=none;" value="" vertex="1">
           <mxGeometry height="60" width="430" x="90" y="130" as="geometry" />
@@ -37,7 +37,7 @@
         <mxCell id="BP9IxYRxTg5UHEvOxEcL-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;i&gt;&lt;b&gt;Koopman Path (Linearized Long-Term Dynamics)&lt;/b&gt;&lt;/i&gt;" vertex="1">
           <mxGeometry height="30" width="238" x="116" y="135" as="geometry" />
         </mxCell>
-        <mxCell id="BP9IxYRxTg5UHEvOxEcL-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Encoder&lt;div&gt;&amp;nbsp;(φ, Linear)&lt;/div&gt;" vertex="1">
+        <mxCell id="BP9IxYRxTg5UHEvOxEcL-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Linear Enc&lt;div&gt;&amp;nbsp;(φ, Encode)&lt;/div&gt;" vertex="1">
           <mxGeometry height="31" width="85" x="105" y="169" as="geometry" />
         </mxCell>
         <mxCell id="BP9IxYRxTg5UHEvOxEcL-29" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fillColor=#e51400;strokeColor=#B20000;strokeWidth=2;startArrow=classic;startFill=1;">
@@ -79,7 +79,7 @@
         <mxCell id="BP9IxYRxTg5UHEvOxEcL-33" edge="1" parent="1" source="BP9IxYRxTg5UHEvOxEcL-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;fillColor=#76608a;strokeColor=#432D57;strokeWidth=2;" target="BP9IxYRxTg5UHEvOxEcL-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BP9IxYRxTg5UHEvOxEcL-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" value="Gating Mechanism" vertex="1">
+        <mxCell id="BP9IxYRxTg5UHEvOxEcL-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" value="Gating Mechanism&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="381" y="250" as="geometry" />
         </mxCell>
         <mxCell id="BP9IxYRxTg5UHEvOxEcL-18" edge="1" parent="1" source="BP9IxYRxTg5UHEvOxEcL-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=0;fillColor=#b0e3e6;strokeColor=#0D7880;strokeWidth=2;" target="BP9IxYRxTg5UHEvOxEcL-11">
@@ -96,8 +96,8 @@
             <mxPoint x="80" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BP9IxYRxTg5UHEvOxEcL-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Input Features (r) from Temporal Hub" vertex="1">
-          <mxGeometry height="40" width="90" x="-6" y="113" as="geometry" />
+        <mxCell id="BP9IxYRxTg5UHEvOxEcL-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Temporal Hub Features (r)&lt;div&gt;&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="90" x="-8" y="113" as="geometry" />
         </mxCell>
         <mxCell id="BP9IxYRxTg5UHEvOxEcL-21" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#b0e3e6;strokeColor=#0e8088;strokeWidth=2;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -164,8 +164,8 @@
             <mxPoint x="680" y="154" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BP9IxYRxTg5UHEvOxEcL-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Hybrid Output to S4(post) Refiner" vertex="1">
-          <mxGeometry height="30" width="80" x="651" y="132" as="geometry" />
+        <mxCell id="BP9IxYRxTg5UHEvOxEcL-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Output to S4 Refiner" vertex="1">
+          <mxGeometry height="30" width="80" x="646" y="122" as="geometry" />
         </mxCell>
         <mxCell id="BP9IxYRxTg5UHEvOxEcL-38" edge="1" parent="1" source="BP9IxYRxTg5UHEvOxEcL-11" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#b0e3e6;strokeColor=#0e8088;" target="BP9IxYRxTg5UHEvOxEcL-14" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
