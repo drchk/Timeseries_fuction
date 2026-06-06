@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0">
   <diagram name="Page-1" id="UaNUR8POgIM9URTzRUll">
-    <mxGraphModel dx="1628" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1652" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="BP9IxYRxTg5UHEvOxEcL-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Causal FIR&lt;div&gt;Conv1d&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="90" x="120" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="BP9IxYRxTg5UHEvOxEcL-8" edge="1" parent="1" source="BP9IxYRxTg5UHEvOxEcL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;fillColor=#1ba1e2;strokeColor=#3B94AF;" target="BP9IxYRxTg5UHEvOxEcL-5">
+        <mxCell id="BP9IxYRxTg5UHEvOxEcL-8" edge="1" parent="1" source="BP9IxYRxTg5UHEvOxEcL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;fillColor=#1ba1e2;strokeColor=#2F788D;" target="BP9IxYRxTg5UHEvOxEcL-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BP9IxYRxTg5UHEvOxEcL-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Linear Projection" vertex="1">
@@ -40,28 +40,28 @@
         <mxCell id="BP9IxYRxTg5UHEvOxEcL-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Encoder&lt;div&gt;&amp;nbsp;(φ, Linear)&lt;/div&gt;" vertex="1">
           <mxGeometry height="31" width="85" x="105" y="169" as="geometry" />
         </mxCell>
-        <mxCell id="BP9IxYRxTg5UHEvOxEcL-29" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;fillColor=#e51400;strokeColor=#B20000;strokeWidth=2;">
+        <mxCell id="BP9IxYRxTg5UHEvOxEcL-29" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fillColor=#e51400;strokeColor=#B20000;strokeWidth=2;startArrow=classic;startFill=1;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="357" y="185" />
-              <mxPoint x="357" y="250" />
-              <mxPoint x="230" y="250" />
-              <mxPoint x="230" y="185" />
+              <mxPoint x="353" y="185" />
+              <mxPoint x="353" y="251" />
+              <mxPoint x="239" y="251" />
+              <mxPoint x="239" y="186" />
             </Array>
-            <mxPoint x="337" y="184.5" as="sourcePoint" />
-            <mxPoint x="227" y="185" as="targetPoint" />
+            <mxPoint x="367" y="185" as="sourcePoint" />
+            <mxPoint x="213" y="185.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BP9IxYRxTg5UHEvOxEcL-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Latent State (zₜ)" vertex="1">
           <mxGeometry height="41" width="80" x="260" y="169" as="geometry" />
         </mxCell>
         <mxCell id="BP9IxYRxTg5UHEvOxEcL-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Complex Diagonal K (Rotate &amp;amp; Scale)" vertex="1">
-          <mxGeometry height="41" width="105" x="248" y="232" as="geometry" />
+          <mxGeometry height="41" width="105" x="244" y="232" as="geometry" />
         </mxCell>
         <mxCell id="BP9IxYRxTg5UHEvOxEcL-44" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="336" y="312" as="sourcePoint" />
-            <mxPoint x="367.61738687763454" y="194.0794974141013" as="targetPoint" />
+            <mxPoint x="339" y="311" as="sourcePoint" />
+            <mxPoint x="370.61738687763454" y="193.0794974141013" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BP9IxYRxTg5UHEvOxEcL-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Low-Rank Control B&amp;nbsp;&lt;div&gt;(Input uₜ)&lt;/div&gt;" vertex="1">
@@ -82,7 +82,7 @@
         <mxCell id="BP9IxYRxTg5UHEvOxEcL-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" value="Gating Mechanism" vertex="1">
           <mxGeometry height="60" width="120" x="381" y="250" as="geometry" />
         </mxCell>
-        <mxCell id="BP9IxYRxTg5UHEvOxEcL-18" edge="1" parent="1" source="BP9IxYRxTg5UHEvOxEcL-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=0;fillColor=#b0e3e6;strokeColor=#0e8088;strokeWidth=2;" target="BP9IxYRxTg5UHEvOxEcL-11">
+        <mxCell id="BP9IxYRxTg5UHEvOxEcL-18" edge="1" parent="1" source="BP9IxYRxTg5UHEvOxEcL-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=0;fillColor=#b0e3e6;strokeColor=#0D7880;strokeWidth=2;" target="BP9IxYRxTg5UHEvOxEcL-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="80" y="95" />
@@ -149,10 +149,10 @@
             <mxPoint x="410.79999999999995" y="185.062" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BP9IxYRxTg5UHEvOxEcL-34" edge="1" parent="1" source="BP9IxYRxTg5UHEvOxEcL-12" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="BP9IxYRxTg5UHEvOxEcL-13" value="">
+        <mxCell id="BP9IxYRxTg5UHEvOxEcL-34" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="BP9IxYRxTg5UHEvOxEcL-13" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="340" y="270" as="sourcePoint" />
-            <mxPoint x="390" y="220" as="targetPoint" />
+            <mxPoint x="296" y="210" as="sourcePoint" />
+            <mxPoint x="386" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BP9IxYRxTg5UHEvOxEcL-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Recurrent K-Step" vertex="1">
@@ -183,13 +183,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BP9IxYRxTg5UHEvOxEcL-41" parent="1" style="shape=orEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" value="" vertex="1">
-          <mxGeometry height="18" width="15" x="363" y="177.5" as="geometry" />
-        </mxCell>
-        <mxCell id="BP9IxYRxTg5UHEvOxEcL-43" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#e51400;strokeColor=#B20000;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="350" y="185" as="sourcePoint" />
-            <mxPoint x="364" y="184.5" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry height="18" width="15" x="364" y="175.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
